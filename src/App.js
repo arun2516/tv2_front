@@ -1,5 +1,4 @@
 import './App.css';
-import Progressbar from "../src/component/progressbar/Progressbar";
 import Home from "../src/component/home/Home"
 import Header from './component/header/Header';
 import Footer from './component/footer/Footer';
