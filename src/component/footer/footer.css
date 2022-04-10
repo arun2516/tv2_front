@@ -1,0 +1,12 @@
+.footer_main{
+    background-color:#293751;
+   
+}
+.footer_content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    opacity: 0.5;
+    height:8vh;
+}

@@ -1,0 +1,36 @@
+.login_main{
+    padding-top:8%;
+    background-color: #091422;
+    height:80vh;
+    color:white;
+}
+.submit_btn{
+    color:white;
+    font-weight:bold;
+    background-image: linear-gradient(to right, #03AAD3  , #14282A);
+}
+p{
+    text-align:center;
+}
+
+#password{
+    background-color: white;
+    /* border-radius:10px; */
+}
+#email{
+    background-color: white;
+    /* border-radius:10px;
+    margin-right: 10px; */
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:600px){
+    .input_box{
+        display:flex;
+        flex-direction:column;
+    }
+    
+}
