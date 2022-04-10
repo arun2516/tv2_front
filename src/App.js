@@ -15,8 +15,8 @@ function App() {
     <Router>
       <Routes>
         
-        <Route path="/home" element={(user?<Home/>:<Navigate replace to="/login"/>)}/>
-        <Route path="/login" element={<Login/>}/>
+        <Route path="/home" element={(user?<Home/>:<Navigate replace to="/"/>)}/>
+        <Route path="/" element={<Login/>}/>
       </Routes>
     </Router>
     <Footer/>
